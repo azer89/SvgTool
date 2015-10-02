@@ -17,7 +17,9 @@ SOURCES += main.cpp\
     GLContainer.cpp \
     GLWidget.cpp \
     SystemParams.cpp \
-    VertexDataHelper.cpp
+    VertexDataHelper.cpp \
+    SvgReader.cpp \
+    SvgPainter.cpp
 
 HEADERS  += mainwindow.h \
     ALine.h \
@@ -26,7 +28,9 @@ HEADERS  += mainwindow.h \
     GLWidget.h \
     SystemParams.h \
     VertexData.h \
-    VertexDataHelper.h
+    VertexDataHelper.h \
+    SvgReader.h \
+    SvgPainter.h
 
 FORMS    += mainwindow.ui
 
